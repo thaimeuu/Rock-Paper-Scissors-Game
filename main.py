@@ -3,7 +3,7 @@ import random
 
 def main():
     choices = ["rock", "paper", "scissors"]
-    player_wins = bot_wins = 0
+    player_wins = 0
     print(
         "Welcome to Rock-Paper-Scissors\n"
         "Play by typing in either rock, paper or scissors in each round\n"
@@ -33,7 +33,6 @@ def main():
                         print("Draw!")
                     elif bot == "paper":
                         print("Bot wins!")
-                        bot_wins += 1
                     else:
                         print("You win!")
                         player_wins += 1
@@ -43,7 +42,6 @@ def main():
                         print("Draw!")
                     elif bot == "scissors":
                         print("Bot wins!")
-                        bot_wins += 1
                     else:
                         print("You win!")
                         player_wins += 1
@@ -53,7 +51,6 @@ def main():
                         print("Draw!")
                     elif bot == "rock":
                         print("Bot wins!")
-                        bot_wins += 1
                     else:
                         print("You win!")
                         player_wins += 1
